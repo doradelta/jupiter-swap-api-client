@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "jupiter-swap-api-client",
+    "example",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+rust-version = "1.80.0"
+
+[workspace.dependencies]
+solana-sdk = "~2.1.13"
+solana-client = "~2.1.13"
+solana-account-decoder = "~2.1.13"
